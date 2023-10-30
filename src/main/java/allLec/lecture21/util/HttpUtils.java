@@ -1,4 +1,4 @@
-package main.java.lecture21.util;
+package allLec.lecture21.util;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,7 +8,6 @@ public class HttpUtils {
 
         Map<String, String> paramMap = new HashMap<>();
         String[] params = queryParam.split("&");
-        HttpUtils.parseUriQueryParams(queryParam);
         for (String param : params) {
             String[] split = param.split("=");
             String paramName = split[0];
