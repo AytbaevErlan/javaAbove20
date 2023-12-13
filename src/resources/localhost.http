@@ -1,0 +1,19 @@
+POST http://localhost:8080/javaAbove_war_exploded/hello
+Content-Type: application/x-www-form-urlencoded
+
+name=Erlan
+
+####
+
+GET http://localhost:8080/javaAbove_war/test
+####
+GET http://localhost:8080/javaAbove_war/
+####
+GET http://localhost:8080/javaAbove_war/hello
+####
+GET http://localhost:8080/javaAbove_war/minsk
+####
+GET http://localhost:8080/javaAbove_war/washington
+####
+GET http://localhost:8080/javaAbove_war/beijing
+
